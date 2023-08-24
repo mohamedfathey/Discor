@@ -1,0 +1,100 @@
+header{
+    background-image: none;
+    background-color: #5865f2 !important;
+    height: 150vh;
+    
+}
+.main2{
+    margin-top: 50px;
+}
+.maincont h1{
+    transform: translateY(-5rem);
+}
+.maincont a {
+    text-decoration: none;
+    color: white;
+
+} 
+.cont2{
+    margin-bottom: 50px;
+}
+.maincont .cont2{
+        padding: 10px;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+}
+.maincont .cont2:hover{
+
+
+    background-color: rgb(101, 113, 243);
+}
+.ii img {
+    width:300px;
+    height: 200px;
+}   
+.si img{
+    border-radius: 15px;
+    width:350px;
+    height: 200px;
+}
+section{
+    background-color: #f6f6f6 ;
+    display: grid;
+    justify-content: center;
+    align-items:  start;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(2,50%);
+    padding: 20px;
+    border-radius: 15px;
+}
+section .sat{
+    grid-column: 3;
+    grid-row: 1/ span 2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2rem;
+}
+.sat p{
+    font-weight: 100;
+}
+.sat h1{
+    width: 100%;
+    color: rgb(88, 101, 242);
+    font-size: 50px;
+    font-weight: bolder;
+}
+.sat button{
+    margin-top: 4rem;
+    width: 30%;
+    padding: 4%;
+    border-radius: 25px;
+    outline: none;
+    color: white;
+    border: none;
+    background-color: #5865f2;
+}
+.sat button:hover{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    transition-duration: 0.5s;
+}
+section a{
+    text-decoration: none;
+}
+.card h3{
+    margin-top: 10px;
+    color: rgb(88, 101, 242);
+}
+.card h2{
+    margin: 10px 0;
+    color: black;
+    font-weight: bolder;
+}
+.card div.si img:hover +h2{
+        color: #5865f2;
+}
+.sat~a:hover h2{
+        color: #5865f2;
+}
+

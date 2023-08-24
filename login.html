@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+    <link rel="shortcut icon" href="Img/discord-logo-1-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+    <div class="sq">
+        <div class="containt">
+            <div class="gr">
+        <div class="head">
+            <h2>Welcome back! </h2>
+            <p>We're so excited to see you again! </p>
+        </div>
+        <form action="index.html" name="login_form" onsubmit="return login()" method="post">
+            <fieldset>  
+                <legend style="color: white;"> &ThinSpace; welcome back  &ThinSpace; </legend>
+            <div><label for="erp" >EMAil OR PHONE NUMBER :</label></div>
+            <input type="text" name="erp" id="erp" required><br>
+            <div><label for="pass">PASSWORD :</label></div>
+            <input type="password" name="pass" id="pass" required><br>
+            <a href="http://"> Forget Your Password ? </a><br>
+            <button>Log In </button>
+        </form></fieldset>
+        <p> Need An Account ? <a href="signup.html">Register</a></p>
+    <div class="qr">
+        <div class="image">
+            <img src="" alt="">
+        </div>
+        <div class="contat">
+            <h2>Log in with QR Code</h2>
+            <p>Scan this with the <strong>Discord mobile app</strong>  to log in instantly.</p>
+        </div>
+    </div>
+</div></div>
+    </div>
+</body>
+<script>
+    function login(){
+        var user=["Mohamed" , "Ahmed", "Mostafa","Ali", "Yousef" ];
+        var pas=[ "18112002" , "123456789", "11223344", "55667788"," 99001122"];
+        var name=document.forms["login_form"]["erp"].value;
+        var pa=document.forms["login_form"]["pass"].value;
+        for (var i = 0; i < user.length; i++) {
+            if((name == user[i]) && (pa==pas[i])){
+                return true;
+            }else
+                if((name == "") || (pa == "")){
+                    alert("Please Full Your Data");
+                    return false;
+                }else{
+                    alert("wrong Password");
+                    return false;
+                }
+            }
+        }
+</script>
+</html>

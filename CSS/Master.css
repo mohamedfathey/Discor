@@ -1,0 +1,317 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-image: url(../Img/b7e9dce75f9edb23504e13b4699e208f204e5015.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.conat{
+    width:75rem;
+    margin: auto;
+}
+.main{
+    width: 80%;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+nav .logo{
+    width: fit-content;
+}
+nav .logo img{
+    width: 180px;
+    height: 100px
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+nav .login button{
+    background-color: white;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    border: none;
+}
+nav .login button:hover{
+    color: #5865f2;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    transition-duration: 0.5s;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincont{
+    text-align: center;
+    width: 59%;
+    color: white;
+    
+}
+.maincont h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 56px;
+    font-weight: 900;
+}
+.maincont p{
+    line-height: 2rem;
+}
+.maincont .downbut{
+    width: 100%;
+    margin-top: 2rem;
+}
+.main2 button{
+    width: 18rem;
+    height: 3rem;
+    margin-right: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 400;
+    padding: 10px;
+
+}
+.main2 button:hover{
+    color: #5865f2;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    transition-duration: 0.5s;
+}
+.main2 button:nth-of-type(2){
+    background-color: #23272a;
+    color: white;
+    
+}
+.main2 button:nth-of-type(2):hover{
+    background-color:#36393f;
+    transition-duration: 0.5s;
+}
+.al1{
+    background-color: #ffffff;
+    padding: 5rem 0;
+}
+.al2{
+    background-color: #f6f6f6;
+    padding: 5rem 0;
+}
+.conat .row1 , .conat .row2{
+    display: grid;
+    grid-template-areas: 'i h' ;
+    column-gap: 6rem;
+    row-gap: 2rem;
+}
+.row1 , .row2{
+    margin: 0.5rem;
+    margin-top: 8rem;
+}
+
+.conat .row1 img{
+    grid-area: i;
+}
+.conat .row2 img{
+    grid-area: h;
+}
+.conat .row1 .co{
+    grid-area: h;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+        align-content: center;
+}
+.conat .row2 .co{
+    grid-area: i;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.conat .row1 h2,
+.conat .row2 h2{
+    line-height: 120%;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.conat .row1 p
+, .conat .row2 p{
+    font-size: 18px;
+    line-height: 1.7;
+}
+.conat .con {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conat .con h2{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.conat .con p{
+    margin-top: 2rem;
+    width: 70%;
+    line-height: 2rem;
+}
+.conat .foot {
+    margin-top: 1rem;
+    text-align: center;
+}
+.conat .foot h2{
+    font-size: 35px;
+}
+.conat .foot button{
+    width: 18rem;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color:#404eed;
+    border: none;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+.conat .foot button:hover{
+    box-shadow:0 8px 15px rgb(0 0 0 / 20%);
+    background-color: hsl(235,86.1%,71.8%);
+    transition-duration: 0.5s;
+}
+footer{
+    background-color: #23272a;
+    padding: 10px;
+}
+footer .conat .cof{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-areas: 'a b c d f';
+    align-content: center;
+    justify-content: space-between;
+    align-items: start;
+    justify-items: center;
+}
+footer .conat .cof .a{
+    grid-area: a;
+}
+footer .conat .cof .a h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #404eed;
+    width: 50%;
+}
+footer .conat .cof .a img{
+    width: 30px;
+    height: 20px;
+}
+footer .conat .cof .a span{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+footer .conat .cof .a ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 25px;
+
+}
+footer .conat .cof .a i{
+    color: white;
+    font-size: 25px;
+}
+footer .conat .cof .b{
+    grid-area: b;
+}
+footer .conat .cof .c{
+    grid-area: c;
+}
+footer .conat .cof .d{
+    grid-area: d;
+}
+footer .conat .cof .f{
+    grid-area: f;
+}
+footer .conat .cof ul li
+{
+    margin-top: 15px;
+}
+footer .conat .cof ul li a{
+color: white;
+text-decoration: none;
+}
+footer .conat .cof ul li a:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+footer .conat .cof label{
+    color: #404eed;
+}
+.line
+{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    background-color: #404eed;
+    width: 90%;
+    height: 2px;
+
+}
+.ifoot{
+    display: grid;
+    grid-template-areas: 'i b';
+    column-gap: 47rem;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+.ifoot img{
+    grid-area: i;
+    width: 180px;
+    height: 100px
+}
+.ifoot button{
+    grid-area: b;
+    width: 5rem;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color:#404eed;
+    border: none;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+}
+.ifoot button:hover{
+    box-shadow:0 8px 15px rgb(0 0 0 / 20%);
+    background-color: hsl(235,86.1%,71.8%);
+    transition-duration: 0.5s;
+}

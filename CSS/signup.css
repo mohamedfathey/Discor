@@ -1,0 +1,19 @@
+.gr{
+    display: block;
+    grid-template-areas: none;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+.head{
+    grid-area: none;
+}
+.sq{
+
+}
+.containt{
+    width: 30rem;
+        height: 95vh;
+}
+.check:focus{
+    background-color: rgb(54, 57, 63);
+}

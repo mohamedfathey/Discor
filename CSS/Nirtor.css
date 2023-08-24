@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+/*     background-image: url(../video/ff96c6cc388e99cdcdd33e996ba9f893.webm); */
+    background: url(../video/nitro.gif) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-color: none !important;
+    height: 120vh;
+}
+.main2{
+    width:65rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+.maincont p{
+    margin-top: 20px;
+    width: 40%;
+    font-size: 15px;
+    font-size: 20px;
+}
+.maincont h1{
+    width: 20rem;
+    line-height: 3.5rem;
+}
+.mainhead{
+    position: absolute;
+    transform: translate(-1rem,-15rem);
+    display: grid;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    column-gap: 1rem;
+    grid-template-columns: 49% 49%;
+}
+.mainhead div
+{
+    width: 100%;
+background-color: rgb(11, 121, 200);
+color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+border-radius: 15px;
+/* padding: 3rem; */
+}
+.mainhead div h1{
+    width: 100%;
+    padding: 1rem;
+    font-style: italic;
+}
+.mainhead div h2{
+    width: 100%;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-weight: 500;
+}
+.mainhead div button{
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    padding: 2%;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+.mainhead .left {
+    background-image:linear-gradient(to bottom right, rgb(133, 71, 198),rgb(175, 85, 156)) ;
+}
+.mainhead .right button{
+    margin-top: 171px;
+}
+.mainhead div button:hover{
+    color: #5865f2;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    transition-duration: 0.5s;
+}
+.mainmian
+ {
+    
+    transform: translatey(25rem);
+    display: grid;
+    column-gap:1rem ;
+    row-gap: 1rem;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% repeat(2,60%) 10%;
+ }
+.mainmian h1{
+    width: 100%;
+    grid-column:1/ span 2;
+    text-align: center;
+}
+.mainmian .card
+{   padding:  0 70px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f6f6ff;
+    border-radius: 25px;
+}
+.mainmian .card h3{
+    font-weight: 800;
+    color: rgb(35, 39, 42);
+    width: 90%;
+}
+.mainmian  .bu{
+    grid-column: 1/ span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainmian  .bu button{
+    width: 15%;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+.mainmian .card:hover{
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    transition-duration: 0.3s;
+}
+.mainmian  .bu button:hover{
+    background-color: #3b3b3b;
+    box-shadow: 0 2px 9px 0 rgb(6 10 11 / 42%);
+    transition-duration: 0.5s;
+}
+footer{
+    transform: translateY(45rem);
+}

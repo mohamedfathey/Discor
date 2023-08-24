@@ -1,0 +1,108 @@
+header{
+    background-image: none;
+    background-color: #23272a;
+} 
+.main2{
+    justify-content: flex-start;
+}
+
+.maincont{
+    text-align: left;
+}
+.maincont h1{
+    width: 30rem;
+}
+.maincont button{
+    color: white;
+    background-color: #5865f2;
+}
+.maincont button:hover{
+    color: white;
+}
+.main2{
+    display: grid;
+    grid-template-areas: ' i b';
+}
+.pho{
+    grid-area: b;
+}
+.maincont{
+    grid-area:i ;
+    width: 80%;
+}
+.downbut span{
+    width: 100%;
+}
+main{
+    margin-top: 8rem;
+}
+.ver{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 'a b' 'c d' ' e f';
+    align-content: space-between;
+}
+.ver div{
+    display: grid;
+    row-gap: 2rem;
+    align-content: space-between;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #f6f6ff;
+    width: fit-content;
+    padding: 4rem;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.ver div h2{
+    font-size: 35px;
+}
+.ver div button{
+    justify-self: center;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color:#23272a;
+    border: none;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+
+}
+.ver div button:hover{
+    box-shadow:0 8px 15px rgb(0 0 0 / 20%);
+    background-color: #36393f;
+    transition-duration: 0.3s;
+}
+.versi{
+    grid-area: a;
+    padding-right: 2rem !important;
+
+}
+.versl{
+    grid-area: c;
+    margin-top: -5rem;
+}
+.versa{
+    grid-area: b;
+        margin-top: 5rem;
+}
+.versm{
+    grid-area: d;
+}
+.versfe{
+    grid-area: e;
+    align-content: stretch;
+    height: 300px !important;
+    width: 34rem !important;
+    margin-top: -5rem;
+
+}
+.ver .versfe button{
+    width: 20rem;
+}
+

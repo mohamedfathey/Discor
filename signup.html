@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+    <link rel="shortcut icon" href="Img/discord-logo-1-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="stylesheet" href="CSS/signup.css">
+</head>
+<body>
+    <div class="sq">
+        <div class="containt">
+            <div class="gr">
+        <div class="head">
+            <h2>Welcome back! </h2>
+            <p>We're so excited to see you again! </p>
+        </div>
+        <form action="index.html" name="login_form" onsubmit="return login()" method="post">
+            <div><label for="erp" >EMAil:</label></div>
+            <input type="text" name="erp" id="erp" required><br>
+            <div><label for="us" >USERNAME:</label></div>
+            <input type="text" name="us" id="us" required><br>
+            <div><label for="pass">PASSWORD :</label></div>
+            <input type="password" name="pass" id="pass" required><br>
+            <div><label for="pass">DATE OF BIRTH :</label></div>
+            <input type="date" name="pass" id="pass" required><br>
+            <input type="checkbox" name="check" required style="display: inline-block; background-color: rgb(54, 57, 63); width: 20px; height: 20px;">
+            <label>(Optional) It’s okay to send me emails with Discord updates, tips, and special offers. You can opt out at any time.</label><br>
+            <button>Sign Up </button>
+        </form>
+        <p><a href="login.html">Already Have an Account?</a></p>
+</div></div>
+    </div>
+</body>
+<!-- <script>
+    function login(){
+        var user=["Mohamed" , "Ahmed", "Mostafa","Ali", "Yousef" ];
+        var pas=[ "18112002" , "123456789", "11223344", "55667788"," 99001122"];
+        var name=document.forms["login_form"]["erp"].value;
+        var pa=document.forms["login_form"]["pass"].value;
+        for (var i = 0; i < user.length; i++) {
+            if((name == user[i]) && (pa==pas[i])){
+                return true;
+            }else
+                if((name == "") || (pa == "")){
+                    alert("Please Full Your Data");
+                    return false;
+                }else{
+                    alert("wrong Password");
+                    return false;
+                }
+            }
+        }
+</script> -->
+</html>

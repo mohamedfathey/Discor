@@ -1,0 +1,141 @@
+nav ul{
+    text-align: end;
+}
+nav{
+    background-color: white;
+}
+nav ul li a{
+    color: blue;
+    font-weight: 100;
+}
+header{
+    background-image: url(../Img/supback.png);
+    height: 64vh;
+}
+.maincont h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+    font-size: 50px;
+}
+.maincont input{
+    width: 70%;
+    font-size: 15px;
+    padding: 1%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+.conthead{
+    margin-top: 5rem;
+text-align: center;
+}
+.conthead p{
+    margin: auto;
+    width: 50%;
+    color: #68727e;
+}
+.contbody a{
+    text-decoration: none;
+}
+.contbody hr{
+    margin: 10px auto;
+    width: 30%;
+    height: 1px;
+    border: none;
+    background-color: #99aab5;
+    opacity: .5;
+}
+.contbody{
+    transform:translateY(5rem);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: 50% 50%;
+}
+.card{
+    background: white;
+    box-shadow: 0px 9px 30px rgb(200 200 200 / 30%);
+    padding: 1rem;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
+.card div:first-child{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.card h2{
+    text-align: center;
+    margin: 15px 0;
+    color: rgb(98, 101, 242);
+}
+.card p{
+    text-align: center;
+    margin: 15px 0;
+}
+.contbody a:hover{
+    transform: translateY(-5px);
+}
+.mainfoot{
+    transform: translateY(15rem);
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:fit-content ;
+}
+.mainfoot div:first-child{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.mainfoot .card{
+    background: #f2f2f2;
+    box-shadow: 0px 9px 30px rgb(200 200 200 / 30%);
+    padding: 1rem;
+}
+
+.mainfoot a:hover{
+    transform: translateY(-5px);
+}
+.footcards{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+        grid-template-columns: repeat(2,30%);
+        grid-template-rows: 90% ;
+
+}
+.footcards .card:last-of-type {
+    height: 50vh;
+}
+.footcards .card div{
+    margin-bottom: 0;
+}
+.footcards a{
+    text-decoration: none;
+}
+.footcards  hr{
+    margin: 10px auto;
+    width: 30%;
+    height: 1px;
+    border: none;
+    background-color: #99aab5;
+    opacity: .5;
+}
+.footcards  p{
+    margin: auto;
+    width: 100%;
+    color: #68727e;
+    margin-bottom: 1rem;
+}
+footer{
+    margin-top: 20rem;
+}

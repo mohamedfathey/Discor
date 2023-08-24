@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../Img/bzrermc11fy61.webp);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.sq{    
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.containt{
+    width: 49rem;
+    background-color: rgb(54, 57, 63);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #202225;
+}
+.gr{
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 'a c' 'b c';
+    align-items: center;
+    justify-items: stretch;
+    justify-content: space-between;
+}
+.head{
+    grid-area: a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.head h2{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.head p{
+    color: #9b9da1;
+}
+form{
+    grid-area: b;
+    margin: 20px 0;
+}
+form label {
+    color: #d0d3d8;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 12px;
+}
+form div{
+    margin: 10px 0;
+}
+form input{
+    width: 100%;
+    border-radius: 4px ;
+    background-color: #202225;
+    border: 1px solid #212327;
+    padding: 13px;
+outline: none;
+margin-bottom: 5px;
+    
+}
+form input:focus{
+    color: white;
+    font-size: 15px;
+}
+form button{
+    margin-top: 15px;
+    background-color:  hsl(235, 85.6%, 64.7%);
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+
+}
+form a{
+    color: #089eda;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+form a:hover{
+    text-decoration: underline;
+}
+form+p{
+    color: rgb(120, 123, 128);
+    font-size: 13px;
+}
+form+p a{
+    color: #089eda;
+    text-decoration: none;
+}
+form+p a:hover{
+    text-decoration: underline;
+}
+.qr{
+    grid-area: c;
+    width: 15rem;
+}
+form button:hover{
+    background-color: black;
+}
